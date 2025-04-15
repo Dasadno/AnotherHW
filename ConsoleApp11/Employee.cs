@@ -14,7 +14,7 @@ namespace ConsoleApp11
         public string Position { get; set; }
         public int YearOfHiring { get; set; }
 
-        public string Info => $"{LastName} {FirstName} {Patronymic}, Должность: {Position}, Год принятия: {YearOfHiring}";
+        public string Info => $"{LastName} {FirstName} {Patronymic}, Position: {Position}, Year of hiring: {YearOfHiring}";
 
         public int GetExperience(int currentYear)
         {
